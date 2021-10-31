@@ -11,9 +11,9 @@ public class Scrutinatore{
     //Variabile d'istanza che rappresenta il metodo di scelta del vincitore.
     private enum metodoSceltaVincitore{
         maggioranza,
-        maggioranza assoluta,
-        referendum senza quorum,
-        referendum con quorum
+        maggioranzaAssoluta,
+        referendumSenzaQuorum,
+        referendumConQuorum
     }
 
     //Costruttore che istanzia un nuovo Scrutinatore.
