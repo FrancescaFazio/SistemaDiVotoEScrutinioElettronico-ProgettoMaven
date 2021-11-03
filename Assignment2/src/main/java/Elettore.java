@@ -12,10 +12,8 @@ public class Elettore extends Utente{
     }   
 
     //EFFECTS: data in input una SchedaElettorale, l'utente puo' accedere al quesito e alla lista di opzioni tra cui votare. 
-    //         Una volta votate, viene restituita una lista di stringhe contenete, in base alla tipologia di voto: la lista 
-    //         ordianta dei candidati, il candidato scelto o la risposta al quesito referendario. Negli ultimi due casi restituiremo 
-    //         una lista contenente un solo elemento.
-    public List<String> votazione(SchedaElettorale scheda){
+    //         Una volta votate, viene restituita una lista di stringhe conteneteuna nuova SchedaElettorale compilata in base a quello che l'Elettore ha scelto.
+    public SchedaElettorale votazione(SchedaElettorale scheda){
 
     }
 }
